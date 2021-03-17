@@ -7,21 +7,21 @@ document.getElementById('cbg').addEventListener('click', bg)
 
 // changes the image
 function image () {
-  document.getElementById('image').src = "images/omega.png"
+  document.getElementById('image').src = 'images/omega.png'
 }
 // changes text
 function text () {
-  document.getElementById('text').innerHTML="this text has been changed"
+  document.getElementById('text').innerHTML = 'this text has been changed'
 }
 // shows the text
 function show () {
-  document.getElementById('text').style.display = "block"
+  document.getElementById('text').style.display = 'block'
 }
 // hides the text
 function hide () {
-  document.getElementById('text').style.display = "none"
+  document.getElementById('text').style.display = 'none'
 }
 // changes the backgroung
 function bg () {
-  document.body.style.backgroundColor = "blue"
+  document.body.style.backgroundColor = 'blue'
 }
